@@ -2,6 +2,14 @@
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
   // grabCursor: true,
+  autoplay: {
+    delay: 5000, // Delay between slides in milliseconds (5 seconds in this case)
+},
+effect: 'coverflow', // Use the "coverflow" effect
+coverflowEffect: {
+    rotate: 20, // Set the rotation angle during the coverflow effect
+    slideShadows: false, // Disable slide shadows
+},
   loop: true,
   pagination: {
     el: ".swiper-pagination",

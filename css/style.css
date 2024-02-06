@@ -409,7 +409,7 @@ img{
 .about-content{
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  column-gap: 7rem;
+  column-gap: 3.5rem;
   align-items: center;
   padding: 0 5rem;
 }
