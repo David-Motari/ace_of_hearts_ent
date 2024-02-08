@@ -3,7 +3,7 @@ var swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
   // grabCursor: true,
   autoplay: {
-    delay: 5000, // Delay between slides in milliseconds (5 seconds in this case)
+    delay: 2500, // Delay between slides in milliseconds (5 seconds in this case)
 },
 effect: 'coverflow', // Use the "coverflow" effect
 coverflowEffect: {
