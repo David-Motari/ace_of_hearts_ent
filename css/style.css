@@ -372,6 +372,7 @@ img{
   border: 3px solid var(--white-color);
   background-color: var(--primary-color);
 }
+
 .home-details{
   position: absolute;
   top: 50%;
@@ -866,8 +867,11 @@ img{
   .brand-images{
     grid-template-columns: repeat(2,1fr);
   }
-  .brand-img{
-    width: 130px;
+  .home-img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
   }
   .footer-container{
     grid-template-columns: 1fr;
@@ -913,3 +917,24 @@ img{
 
 }
 }
+
+/* Mixes Section*/
+
+.mixes-container {
+  padding: 20px;
+  text-align: center;
+  background-color: #f0f0f0;
+  color: #333;
+}
+.mixes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.mixes iframe {
+  width: 100%;
+  max-width: 560px;
+  height: 315px;
+  margin: 10px;
+}
+
